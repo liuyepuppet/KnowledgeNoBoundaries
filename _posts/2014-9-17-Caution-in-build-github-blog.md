@@ -12,10 +12,10 @@ title: 建立Github博客的坑
 
     <link rel="stylesheet" href="{{ site.baseurl }}stylesheets/styles.css">
     <link rel="stylesheet" href="{{ site.baseurl }}stylesheets/pygment_trac.css">
-    <script src="{{ site.baseurl }}/javascripts/respond.js"></script>
+    <script src="{{site.baseurl}}/javascripts/respond.js"></script>
 
-  需要注意的是，请不要将
+  需要注意的是，在修改default.html时请不要将下列变量与大括号的空格删除，即{{site.baseurl}}需要更正为{{ *site.baseurl* }}
 
-    "{{ site.baseurl }}"
+    "{{site.baseurl}}"
 
   左右的空格删掉
