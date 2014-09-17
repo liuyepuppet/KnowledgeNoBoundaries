@@ -1,1 +1,4 @@
 baseurl: /KnowledgeNoBoundaries
+markdown: redcarpet
+safe: false
+pygments: true
