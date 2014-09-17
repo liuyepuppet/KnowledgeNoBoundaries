@@ -14,4 +14,6 @@ title: 建立Github博客的坑
     <link rel="stylesheet" href="{{ site.baseurl }}stylesheets/pygment_trac.css">
     <script src="{{ site.baseurl }}/javascripts/respond.js"></script>
 
-  需要注意的是，请不要将{{ site.baseurl }}左右的空格删掉
+  需要注意的是，请不要将
+    "{{ site.baseurl }}"
+  左右的空格删掉
