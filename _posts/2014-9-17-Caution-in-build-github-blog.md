@@ -15,5 +15,7 @@ title: 建立Github博客的坑
     <script src="{{ site.baseurl }}/javascripts/respond.js"></script>
 
   需要注意的是，请不要将
+
     "{{ site.baseurl }}"
+
   左右的空格删掉
